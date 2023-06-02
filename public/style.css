@@ -1,0 +1,166 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+
+#navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+#navbar .menu-item.active {
+  background-color: #ff8000;
+}
+
+#mainComponent {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+
+#studentDivCard {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#studentDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#campusDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#campusesDiv {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+#singleCampusDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+#formId {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: 10rem;
+}
+
+.srcComponents {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: space-around;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.makeSibling {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+
+.leftSibling {
+  margin-right: 2rem;
+}
+
+
+
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #caaaaa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff8000;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #e65c00;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #ff8000;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+
+
+@media (max-width: 768px) {
+  #navbar {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #mainComponent,
+  #studentDivCard,
+  #singleCampusDiv,
+  .srcComponents {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
